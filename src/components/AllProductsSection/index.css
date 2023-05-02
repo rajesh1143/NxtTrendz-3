@@ -1,0 +1,25 @@
+.products-heading {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 38px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 60vh;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
